@@ -1,0 +1,211 @@
+# ==========================================
+# Compiled Class Files & Build Outputs
+# ==========================================
+*.class
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+bin/
+out/
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.rar
+
+# ==========================================
+# Maven & Gradle
+# ==========================================
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/maven-wrapper.jar
+.mvn/timing.properties
+.mvn/.develocity/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.gradle/
+gradle-app.setting
+
+# ==========================================
+# IDEs & Editors
+# ==========================================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+*.launch
+.idea_modules/
+
+# Eclipse / Spring Tool Suite (STS)
+.classpath
+.project
+.settings/
+.factorypath
+.apt_generated
+.apt_generated_tests
+.springBeans
+.sts4-cache
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ==========================================
+# Environment Variables, Secrets & Credentials
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key
+*.pub
+*.crt
+*.cer
+*.der
+*.keystore
+*.jks
+*.p12
+*.pfx
+secrets/
+credentials/
+credentials.json
+client_secret*.json
+service-account*.json
+*.token
+tokens.json
+auth.json
+*secret*.json
+id_rsa*
+id_ed25519*
+.netrc
+.npmrc
+
+# Local Spring Boot & Profile Overrides
+application-local.properties
+application-local.yml
+application-local.yaml
+application-secret.properties
+application-secret.yml
+application-secret.yaml
+application-secrets.*
+application-prod.properties
+application-prod.yml
+application-prod.yaml
+application-*.local.properties
+application-*.local.yml
+application-*.local.yaml
+*.local.properties
+*.local.yml
+*.local.yaml
+
+# Docker & Container Local Overrides
+docker-compose.override.yml
+docker-compose.override.yaml
+docker-compose.local.yml
+docker-compose.local.yaml
+docker-compose*.override.yml
+
+# Cloud, Terraform & Infrastructure Secrets
+.aws/
+.azure/
+.gcp/
+.kube/
+kubeconfig*
+.terraform/
+terraform.tfstate*
+
+# Shell Histories
+.bash_history
+.zsh_history
+
+# ==========================================
+# AI Assistants, Rules & Agent Configurations
+# ==========================================
+AGENTS.md
+agents.md
+Agents.md
+**/AGENTS.md
+**/agents.md
+.agents/
+GEMINI.md
+gemini.md
+**/GEMINI.md
+**/gemini.md
+CLAUDE.md
+claude.md
+**/CLAUDE.md
+**/claude.md
+.cursorrules
+.cursor/
+.windsurfrules
+.gemini/
+.copilot/
+
+# ==========================================
+# Logs & Temporary Files
+# ==========================================
+*.log
+logs/
+*.sys
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+hs_err_pid*
+replay_pid*
+
+# ==========================================
+# Database & Embedded Data
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+*.h2.db
+h2/
+data/
+postgres_data/
+pgdata/
+*.dump
+*.backup
+*.sql.gz
+
+# ==========================================
+# Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthmb.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
